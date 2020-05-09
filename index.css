@@ -379,15 +379,21 @@
     margin-bottom: 33px;
   }
 
+  .question-bar {
+    padding-bottom: 76px;
+  }
+
+  .question-bar .row {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 77px;
+  }
+
   #alien {
     display: none;
   }
 
   #invision {
     display: none;
-  }
-
-  .container-fluid.question-bar .col-6 {
-    
   }
 }
