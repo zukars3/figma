@@ -11,6 +11,10 @@
   background-position: top 152px right 31px;
 }
 
+#background-image {
+  display: none;
+}
+
 .container-fluid.start-page .row.header {
   padding-bottom: 76px;
 }
@@ -341,6 +345,10 @@
     margin-bottom: -90px;
   }
 
+  #background-image {
+    display: inline-block;
+  }
+
   .container-fluid.start-page .row.big-text h1 {
     font-family: Work Sans;
     font-style: normal;
@@ -369,5 +377,17 @@
   .learn-more-button {
     width: 100%;
     margin-bottom: 33px;
+  }
+
+  #alien {
+    display: none;
+  }
+
+  #invision {
+    display: none;
+  }
+
+  .container-fluid.question-bar .col-6 {
+    
   }
 }
