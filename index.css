@@ -1,0 +1,373 @@
+* {
+  box-sizing: border-box;
+}
+
+.container-fluid.start-page {
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 39px;
+  padding-bottom: 126px;
+  background: #f3c6bd url("/files/background-image-home.png") no-repeat;
+  background-position: top 152px right 31px;
+}
+
+.container-fluid.start-page .row.header {
+  padding-bottom: 76px;
+}
+
+.container-fluid.start-page .row.big-text h1 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 78px;
+  padding-bottom: 34px;
+}
+
+.container-fluid.start-page .row.middle p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+  padding-bottom: 58px;
+  width: 450px;
+}
+
+.logo-text {
+  display: inline-block;
+  padding-top: 6px;
+}
+
+.navigation {
+  text-align: right;
+  padding-top: 7px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+  margin-right: 30px;
+}
+
+.navigation a:hover {
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: grey 3px solid;
+}
+
+.get-started-button {
+  padding: 5px 20px 5px 20px;
+  border: none;
+  background: #3040c4;
+  color: white;
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+.learn-more-button {
+  padding: 5px 20px 5px 20px;
+  border: none;
+  background: #fff;
+  color: #3040c4;
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+.question-bar {
+  background: #f4f5f7;
+  padding-bottom: 76px;
+}
+
+.question-bar .row {
+  margin-left: 130px;
+  margin-right: 131px;
+  padding-top: 77px;
+}
+
+.question-bar h4 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.question-bar p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-size: 17px;
+}
+
+.container-fluid.features {
+  height: 764px;
+  background: #fff;
+  padding-left: 128px;
+  padding-top: 81px;
+  margin-bottom: 100px;
+}
+
+#background-image {
+  margin-left: -15px;
+  height: 180px;
+  width: 320px;
+}
+
+.container-fluid.features .row.little-heading {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  color: #009b4d;
+  padding-bottom: 24px;
+}
+
+.container-fluid.features .row.big-heading h2 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  letter-spacing: -0.5px;
+
+  color: #2b292d;
+}
+
+.container-fluid.features .row.big-heading p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+  padding-bottom: 42px;
+
+  color: #2b292d;
+}
+
+.container-fluid.features .row.acquire h4 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  padding-bottom: 8px;
+
+  color: #3142c6;
+}
+
+.container-fluid.features .row.acquire p {
+  text-align: justify;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  padding-bottom: 17px;
+
+  color: #2b292d;
+  border-bottom: #3142c6 solid;
+}
+
+.container-fluid.features .feature-icon {
+  padding-right: 15px;
+}
+
+.container-fluid.features .engage .col-5 {
+  padding-top: 20px;
+  border-bottom: #a5a5a5 solid 1px;
+  padding-bottom: 22px;
+}
+
+.container-fluid.features .engage h4 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #2b292d;
+}
+
+#invision {
+  position: absolute;
+  top: 1000px;
+  left: 50%;
+}
+
+#alien {
+  position: absolute;
+  top: 1325px;
+  left: -80px;
+}
+
+.container-fluid.audience {
+  padding-top: 108px;
+  height: 983px;
+  background: rgba(0, 161, 198, 0.07);
+  padding-left: 130px;
+  padding-right: 132px;
+}
+
+.container-fluid.audience .row.headers {
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 111px;
+}
+
+.container-fluid.audience .row.headers h4 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 34px;
+  padding-bottom: 24px;
+}
+
+.container-fluid.audience .row.headers h2 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 56px;
+  padding-bottom: 30px;
+
+  letter-spacing: -0.5px;
+}
+
+.container-fluid.audience .row.headers p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+  padding-bottom: 34px;
+}
+
+#card {
+  width: 262px;
+  height: 300px;
+  justify-content: center;
+  text-align: center;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+#card img {
+  height: 195px;
+  width: 138px;
+  margin: auto;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+#card:hover {
+  background-color: #3142c5;
+  color: #fff;
+}
+
+.container-fluid.hiring {
+  padding-top: 70px;
+  height: 803px;
+}
+
+.container-fluid.hiring .row.headers {
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 111px;
+}
+
+.container-fluid.hiring h2 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+  padding-bottom: 20px;
+}
+
+.container-fluid.hiring h4 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+  padding-bottom: 28px;
+}
+
+.container-fluid.hiring .row.positions {
+  justify-content: center;
+}
+
+.position {
+  background: #fff;
+  height: 81px;
+  width: 110%;
+  padding: 5px 20px 5px 20px;
+  border: 1px solid rgba(43, 41, 45, 0.2);
+  font-weight: 700;
+  border-radius: 5px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.position:hover {
+  border: none;
+  background: #3040c4;
+  color: white;
+}
+
+.position-header {
+  padding-right: 30%;
+}
+
+.position-location {
+  position: absolute;
+  left: 60%;
+}
+
+.position-arrow {
+  position: absolute;
+  right: 0;
+}
+
+@media only screen and (max-width: 330px) {
+  .container-fluid.start-page {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 39px;
+    background: #f3c6bd;
+    margin-bottom: -90px;
+  }
+
+  .container-fluid.start-page .row.big-text h1 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.3125px;
+    padding-bottom: 24px;
+  }
+
+  .container-fluid.start-page .row.middle p {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    padding-bottom: 58px;
+    width: auto;
+  }
+
+  .get-started-button {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .learn-more-button {
+    width: 100%;
+    margin-bottom: 33px;
+  }
+}
